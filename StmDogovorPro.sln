@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{30B52558-47C5-4B30-8965-4A6ABCEF4C69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{C1D7DF85-3B05-40EC-9AD0-F3989833C739}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1B96E977-CF30-4674-BE14-2C11D659E91E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{7449D553-D0BC-474E-A4FB-E94D811CE43D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{09217025-2752-456C-923A-B5152836E58B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StmDogovorPro.Domain", "Common\StmDogovorPro.Domain\StmDogovorPro.Domain.csproj", "{F92CCD82-8937-47C6-A236-7C0CE731CF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StmDogovorPro.Domain.Base", "Common\StmDogovorPro.Domain.Base\StmDogovorPro.Domain.Base.csproj", "{1B10351B-C916-4D19-B39F-A1C01D65F570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StmDogovorPro.Services", "Services\StmDogovorPro.Services\StmDogovorPro.Services.csproj", "{6FBC6ACF-40EB-4E96-9269-3BF1EA5698A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StmDogovorPro.Services.Base", "Services\StmDogovorPro.Services.Base\StmDogovorPro.Services.Base.csproj", "{D4AA83C0-D02A-4FFE-9E37-8DB9CC341DC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F92CCD82-8937-47C6-A236-7C0CE731CF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92CCD82-8937-47C6-A236-7C0CE731CF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92CCD82-8937-47C6-A236-7C0CE731CF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92CCD82-8937-47C6-A236-7C0CE731CF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B10351B-C916-4D19-B39F-A1C01D65F570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B10351B-C916-4D19-B39F-A1C01D65F570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B10351B-C916-4D19-B39F-A1C01D65F570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B10351B-C916-4D19-B39F-A1C01D65F570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FBC6ACF-40EB-4E96-9269-3BF1EA5698A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBC6ACF-40EB-4E96-9269-3BF1EA5698A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBC6ACF-40EB-4E96-9269-3BF1EA5698A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBC6ACF-40EB-4E96-9269-3BF1EA5698A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4AA83C0-D02A-4FFE-9E37-8DB9CC341DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4AA83C0-D02A-4FFE-9E37-8DB9CC341DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4AA83C0-D02A-4FFE-9E37-8DB9CC341DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4AA83C0-D02A-4FFE-9E37-8DB9CC341DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F92CCD82-8937-47C6-A236-7C0CE731CF2D} = {30B52558-47C5-4B30-8965-4A6ABCEF4C69}
+		{1B10351B-C916-4D19-B39F-A1C01D65F570} = {30B52558-47C5-4B30-8965-4A6ABCEF4C69}
+		{6FBC6ACF-40EB-4E96-9269-3BF1EA5698A1} = {1B96E977-CF30-4674-BE14-2C11D659E91E}
+		{D4AA83C0-D02A-4FFE-9E37-8DB9CC341DC1} = {1B96E977-CF30-4674-BE14-2C11D659E91E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75933646-0E51-49AF-8254-86960489D1FB}
+	EndGlobalSection
+EndGlobal
