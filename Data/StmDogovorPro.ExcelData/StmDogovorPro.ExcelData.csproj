@@ -10,4 +10,8 @@
     <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1001" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Services\StmDogovorPro.Services.Base\StmDogovorPro.Services.Base.csproj" />
+  </ItemGroup>
+
 </Project>

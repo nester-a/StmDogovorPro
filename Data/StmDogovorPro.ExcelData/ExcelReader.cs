@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using StmDogovorPro.Services.Base;
+using Excel = Microsoft.Office.Interop.Excel;
 
 namespace StmDogovorPro.ExcelData
 {
-    public class ExcelReader
+    public class ExcelReader : IReader
     {
-
+        public ICollection<string> Read(string path)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
