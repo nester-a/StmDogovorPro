@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StmDogovorPro.Services", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StmDogovorPro.Services.Base", "Services\StmDogovorPro.Services.Base\StmDogovorPro.Services.Base.csproj", "{D4AA83C0-D02A-4FFE-9E37-8DB9CC341DC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StmDogovorPro.ExcelData", "Data\StmDogovorPro.ExcelData\StmDogovorPro.ExcelData.csproj", "{1C5386D7-7108-486D-BB6D-627062982A6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StmDogovorPro.ExcelData", "Data\StmDogovorPro.ExcelData\StmDogovorPro.ExcelData.csproj", "{1C5386D7-7108-486D-BB6D-627062982A6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StmDogovorPro.WordData", "Data\StmDogovorPro.WordData\StmDogovorPro.WordData.csproj", "{0C2BA218-AAB9-424A-933A-E0298563754E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StmDogovorPro.WordData", "Data\StmDogovorPro.WordData\StmDogovorPro.WordData.csproj", "{0C2BA218-AAB9-424A-933A-E0298563754E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StmDogovorPro.Tests", "Tests\StmDogovorPro.Tests\StmDogovorPro.Tests.csproj", "{49E2A475-E015-4455-B592-B0D078522158}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{0C2BA218-AAB9-424A-933A-E0298563754E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C2BA218-AAB9-424A-933A-E0298563754E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C2BA218-AAB9-424A-933A-E0298563754E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E2A475-E015-4455-B592-B0D078522158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E2A475-E015-4455-B592-B0D078522158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E2A475-E015-4455-B592-B0D078522158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E2A475-E015-4455-B592-B0D078522158}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{D4AA83C0-D02A-4FFE-9E37-8DB9CC341DC1} = {1B96E977-CF30-4674-BE14-2C11D659E91E}
 		{1C5386D7-7108-486D-BB6D-627062982A6E} = {C1D7DF85-3B05-40EC-9AD0-F3989833C739}
 		{0C2BA218-AAB9-424A-933A-E0298563754E} = {C1D7DF85-3B05-40EC-9AD0-F3989833C739}
+		{49E2A475-E015-4455-B592-B0D078522158} = {09217025-2752-456C-923A-B5152836E58B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75933646-0E51-49AF-8254-86960489D1FB}
