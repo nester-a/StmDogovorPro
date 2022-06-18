@@ -6,15 +6,40 @@ namespace StmDogovorPro.ExcelData
 {
     public class ExcelReader : IReader
     {
-        static CodePagesEncodingProvider code;
         public ICollection<string> Read(string path)
         {
+            StringBuilder sb = new StringBuilder();
+            ICollection<string> col = new List<string>();
 
-            return default;
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+            using (var file = File.Open(path, FileMode.Open))
+            {
+                using (var app = ExcelReaderFactory.CreateReader(file))
+                {
+                    var result = app.AsDataSet();
+                    var reader = result.CreateDataReader();
+
+                    //читаем колонку
+                    while (reader.Read())
+                    {
+                        for (int column = 0; column < reader.FieldCount; column++)
+                        {
+                            //читаем строку
+                            var value = reader.GetValue(column);
+                            sb.Append(value.ToString() + ";");
+                        }
+                        col.Add(sb.ToString());
+                        sb.Clear();
+                    }
+                }
+            }
+            return col;
         }
 
         public void TestRead()
         {
+            StringBuilder sb = new StringBuilder();
+            List<string> list = new List<string>();
             var path = AppDomain.CurrentDomain.BaseDirectory;
             var excelPath = "excelTest.xlsx";
 
@@ -27,15 +52,21 @@ namespace StmDogovorPro.ExcelData
                 {
                     var result = app.AsDataSet();
                     var reader = result.CreateDataReader();
+
+                    //читаем колонку
                     while (reader.Read())
                     {
-                        //нужно как-то прочесть фаил
-                        var one = reader.GetString(0);
+                        for (int column = 0; column < reader.FieldCount; column++)
+                        {
+                            //читаем строку
+                            var value = reader.GetValue(column);
+                            sb.Append(value.ToString() + ";");
+                        }
+                        list.Add(sb.ToString());
+                        sb.Clear();
                     }
-
                 }
             }
-            
         }
     }
 }
