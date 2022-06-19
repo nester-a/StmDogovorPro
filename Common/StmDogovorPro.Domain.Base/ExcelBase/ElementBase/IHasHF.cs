@@ -2,6 +2,6 @@
 {
     public interface IHasHF
     {
-        decimal HF { get; set; }
+        double HF { get; set; }
     }
 }

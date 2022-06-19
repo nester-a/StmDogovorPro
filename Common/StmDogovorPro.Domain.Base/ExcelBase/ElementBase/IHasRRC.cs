@@ -2,6 +2,6 @@
 {
     public interface IHasRRC
     {
-        int RRC { get; set; }
+        double RRC { get; set; }
     }
 }

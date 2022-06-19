@@ -2,6 +2,6 @@
 {
     public interface IHasNAS
     {
-        decimal NAS { get; set; }
+        double NAS { get; set; }
     }
 }

@@ -2,6 +2,6 @@
 {
     public interface IHasTotal
     {
-        decimal Total { get; set; }
+        double Total { get; set; }
     }
 }

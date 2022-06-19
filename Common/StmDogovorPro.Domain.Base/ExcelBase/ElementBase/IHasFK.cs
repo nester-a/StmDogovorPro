@@ -2,6 +2,6 @@
 {
     public interface IHasFK
     {
-        decimal FK { get; set; }
+        double FK { get; set; }
     }
 }

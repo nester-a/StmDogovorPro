@@ -2,6 +2,6 @@
 {
     public interface IHasTD
     {
-        int TD { get; set; }
+        double TD { get; set; }
     }
 }

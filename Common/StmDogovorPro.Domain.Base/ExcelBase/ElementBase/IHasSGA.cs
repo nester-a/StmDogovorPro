@@ -2,6 +2,6 @@
 {
     public interface IHasSGA
     {
-        decimal SGA { get; set; }
+        double SGA { get; set; }
     }
 }
