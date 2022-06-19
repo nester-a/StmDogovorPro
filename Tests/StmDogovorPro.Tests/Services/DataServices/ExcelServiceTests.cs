@@ -25,6 +25,8 @@ namespace StmDogovorPro.Tests.Services.DataServices
 
             IExcelService service = new ExcelService(fileFinder, reader);
             var data = service.GetData();
+            Assert.NotNull(data);
+            Assert.Equal(1, data.Count);
         }
     }
 }
