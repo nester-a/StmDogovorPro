@@ -2,7 +2,7 @@
 
 namespace StmDogovorPro.Domain.Base.ExcelBase
 {
-    public interface IAnnualVolume : IHasRRC, IHasTD, IHasFK, IHasNAS, IHasSGA, IHasHF, IHasTotal
+    public interface IAnnualVolume : IHasTD, IHasFK, IHasNAS, IHasSGA, IHasHF, IHasTotal
     {
 
     }

@@ -4,7 +4,6 @@ namespace StmDogovorPro.Domain.ExcelBase
 {
     public class AnnualVolume : IAnnualVolume
     {
-        public double RRC { get; set; }
         public double TD { get; set; }
         public double FK { get; set; }
         public double NAS { get; set; }
