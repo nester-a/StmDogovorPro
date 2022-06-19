@@ -1,4 +1,4 @@
-﻿using StmDogovorPro.Domain.Base.ExcellBase;
+﻿using StmDogovorPro.Domain.Base.ExcelBase;
 
 namespace StmDogovorPro.Domain.Base
 {

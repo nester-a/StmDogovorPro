@@ -1,4 +1,4 @@
-﻿namespace StmDogovorPro.Domain.Base.ExcellBase.ElementBase
+﻿namespace StmDogovorPro.Domain.Base.ExcelBase.ElementBase
 {
     public interface IHasTD
     {
