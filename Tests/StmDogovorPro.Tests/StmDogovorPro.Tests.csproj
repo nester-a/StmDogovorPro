@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Data\StmDogovorPro.ExcelData\StmDogovorPro.ExcelData.csproj" />
+    <ProjectReference Include="..\..\Data\StmDogovorPro.FileData\StmDogovorPro.FileData.csproj" />
   </ItemGroup>
 
   <ItemGroup>

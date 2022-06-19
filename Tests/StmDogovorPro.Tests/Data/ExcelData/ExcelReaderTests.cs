@@ -8,11 +8,10 @@ namespace StmDogovorPro.Tests.Data.ExcelData
 {
     public class ExcelReaderTests
     {
-        ExcelReader excel = new ExcelReader();
-
         [Fact]
         public void ReadTest()
         {
+            ExcelReader excel = new ExcelReader();
             var path = AppDomain.CurrentDomain.BaseDirectory;
             var excelPath = "excelTest.xlsx";
 
