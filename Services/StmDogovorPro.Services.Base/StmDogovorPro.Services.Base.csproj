@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\StmDogovorPro.Domain.Base\StmDogovorPro.Domain.Base.csproj" />
+  </ItemGroup>
+
 </Project>
